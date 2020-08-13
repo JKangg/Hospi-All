@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>Hospi-All</title>
+	<link rel="stylesheet" href= "css/header footer stylesheet.css">
+	<link rel="stylesheet" href= "css/Contact us stylesheet.css">
+</head>
+<body>
+<header>
+	<div class= "logo">
+		<a href="index.html"><img src="https://st3.depositphotos.com/5040187/18607/v/450/depositphotos_186072360-stock-illustration-blue-swoosh-global-digital-business.jpg" alt="Hospi-All Logo"><h1>Hospi-All</h1></a>
+		<div class= "slogan">
+			With You Every Step Of Your Recovery
+		</div>
+	</div>
+		<div class= "topnav">
+			<div class="topnav-right">
+				<a href="index.html">Home</a>
+				<a href="About us.html">About Us</a>
+				<a href="How it Works.html">How It Works</a>
+				<a href="Services.html">Services</a>
+				<a href="FAQs.html">FAQs</a>
+				<a href="Contact us.html" class="active">Contact Us</a>
+			<!-- Load icon library -->
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<div class= "topnav-user">
+				<a href="#" id="sign-in button"><i class="fa fa-fw fa-user"></i> Login</a>
+			</div>
+			</div>
+		</div>
+</header>
+
+
+<div class="popup">
+	<div class="login-popup">
+		<img src="images/close.png" alt="Close" class="close">
+		<img src="images/login avatar.png" alt="User" class="user">
+		<input type="text" placeholder="Username">
+		<input type="password" placeholder="Password">
+		<a href="" class="L-button">Login</a>
+		<label>
+			<input type="checkbox" checked="checked" name="remember"> Remember me
+		</label>
+		<span class="psw"><a href="#">Forgot password?</a></span>
+		<p><span>Or</span></p>
+		<a href="" class="su-button">Sign Up</a>
+			
+	</div>
+
+</div>
+
+<h2>Contact Us</h2>
+
+
+
+
+
+<footer>
+	<div class= "footer-leftmenu">
+		<a href="index.html" id="footer-logo"><img src="https://st3.depositphotos.com/5040187/18607/v/450/depositphotos_186072360-stock-illustration-blue-swoosh-global-digital-business.jpg" alt="Hospi-All Logo"><h1>Hospi-All</h1></a>
+		<p>8 Somapah Road</p>
+		<p>Singapore 487372</p>
+		<a href="" class="fa fa-facebook"></a>
+		<a href="" class="fa fa-envelope"></a>
+		<a href="" class="fa fa-linkedin"></a>
+	</div>
+
+	<div class= "footer-menu">
+		<div class= "footer-list">
+			<h3>About Us</h3>
+				<ul>
+					<li><a href= "About us.html#Mission">Mission</a></li>
+					<li><a href= "About us.html#Our Team">Our Team</a></li>
+				</ul>
+		</div>
+	
+		<div class= "footer-list" id="footer-services">
+			<h3>Services</h3>
+				<ul>
+					<li><a href= "Services.html#General">General Medical Consultation</a></li>
+					<li><a href= "Services.html#Chronic">Chronic Diseases</a></li>
+					<li><a href= "Services.html#Specialist">Specialists</a></li>
+					<li><a href= "Services.html#Lab">Laboratory Results</a></li>
+					<li><a href= "Services.html#eShop">eShop</a></li>
+					<li><a href= "Services.html#Reminders">Reminders</a></li>
+				</ul>
+		</div>
+
+		<div class= "footer-list">
+			<h3>Learn More</h3>
+				<ul>
+					<li><a href="FAQs.html">FAQs</a></li>
+					<li><a href="Contact us.html">Contact Us</a></li>
+				</ul>
+		</div>
+
+		<div class= "footer-list">
+			<h3>Download the App</h3>
+				<a href=""><img src="images/Apple Store Badge.png" alt= "Apple Store Badge"  height="20%"></a>
+				<a href=""><img src="images/Google Store Badge.png" alt= "Google Store Badge" height="20%"></a>
+		</div>
+	</div>
+</footer>
+
+
+
+<script>
+document.getElementById("sign-in button").addEventListener("click",function(){
+	document.querySelector(".popup").style.display = "flex";
+})
+
+document.querySelector(".close").addEventListener("click", function(){
+	document.querySelector(".popup").style.display = "none";
+})
+</script>
+
+</body>
+</html>
