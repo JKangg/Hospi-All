@@ -1,0 +1,67 @@
+.top{
+	background: #EEFEFB;
+	background: linear-gradient(to right, #ffffff 0%, #5179B5 70%, #5179B5 100%);
+	margin: 0px -50px;
+	padding: 30px;
+	overflow: auto;
+}
+
+.text{
+	display: inline-block;
+	width: 50%;
+	margin: 0px 20px 0px 50px;
+}
+
+.text h2{
+	font-size: 250%;
+}
+.text p{
+	font-size: 20px;
+}
+
+.image{
+	float: right;
+	width: 35%;
+	margin: 20px 0px 20px 0px;
+}
+
+.inp-form{
+	display: block;
+	text-align: center;
+	margin: 50px;
+}
+form{
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+}
+
+.inp-form input{
+	margin: 15px auto;
+	display: block;
+	width: 90%;
+	padding: 12px;
+	border: 1px solid #B9B9B9;
+	border-radius: 5px;
+}
+#category{
+	margin: 15px auto;
+	display: block;
+	width: 95%;
+	padding: 12px;
+	border: 1px solid #B9B9B9;
+	border-radius: 5px;
+}
+
+#message{
+	height: 100px;
+}
+
+input[type=submit]{
+	background: #47A8FF;
+	width: 20%;
+}
+
+input[type=submit]:hover {
+	background-color: #3986CB;
+	color: #ffffff;
