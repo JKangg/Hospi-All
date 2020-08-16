@@ -1,3 +1,66 @@
+h2{
+	display: none;
+}
+
+#Slogan{
+	font-size: 250%;
+	color: #00adee;
+	font-family: cairo light;
+	font-variant: small-caps;
+}
+
+.Mission, .Team h3{
+	font-size: 250%;
+}
+.Mission{
+	margin: 80px 0px;
+}
+#Mission-heading{
+	vertical align: top;
+	/* Top right bottom left */
+	margin: 0px 0px 100px 0px;
+}
+.Mission-text{
+	display: inline-block;
+	width: 45%;
+	margin: 0px 50px 0px 0px;
+}
+
+.Mission img{
+	width: 48%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
 p{
-	margin:200px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.flex{
+	min-width: 25%;
+	max-width: 30%;
+	flex-basis: 30%;
+	flex-grow: 1;
+	text-align: center;
+	margin: 10px;
+}
+.flex img{
+	border-radius: 50%;
+	width: 60%;
+}
+h4{
+	font-size: 120%;
+}
+.flex p{
+	font-size: 90%;
+	margin: 5px;
+	font-family: Muli;
+	text-align: center;
 }

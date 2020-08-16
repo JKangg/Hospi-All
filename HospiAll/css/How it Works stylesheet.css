@@ -1,0 +1,15 @@
+h2{
+	clear: both;
+	text-align: center; 
+	border-bottom: 1px solid #E9E9E9; 
+	line-height: 0.1em;
+	margin: 40px 0px;
+}
+h2 span{ 
+	background:#E9E9E9; 
+	color: #8890D9;
+	padding: 10px;
+	margin: 0px 50px;
+	border-radius: 20px;
+	font-size: 80%;
+}
