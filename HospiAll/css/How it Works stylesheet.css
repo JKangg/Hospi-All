@@ -1,15 +1,40 @@
 h2{
 	clear: both;
 	text-align: center; 
-	border-bottom: 1px solid #E9E9E9; 
+	border-bottom: 1px solid #EEFEFB; 
 	line-height: 0.1em;
-	margin: 40px 0px;
+	margin: 40px 0px 80px 0px;
 }
 h2 span{ 
-	background:#E9E9E9; 
-	color: #8890D9;
+	background:#EEFEFB; 
+	color: #00adee;
 	padding: 10px;
 	margin: 0px 50px;
 	border-radius: 20px;
-	font-size: 80%;
+	font-size: 30px;
+}
+
+h3 span{
+	font-size: 20px;
+	background:#EEFEFB;
+	color: #00adee;
+	padding: 5px 20px;
+	border-radius: 20px;
+}
+h4{
+	font-size: 30px;
+	margin-top: 0px;
+}
+.step1{
+	background: linear-gradient(to right, #ffffff 0%, #FAFAFA 60%, #FAFAFA 100%)
+}
+.step1-text, .step3-text, .step5-text, .step7-text{
+	width: 30%;
+	display: inline-block;
+	font-size: 20px;
+	margin: 0px 140px 0px 230px;
+}
+.step1 img{
+	width: 35%;
+	vertical-align: top
 }
