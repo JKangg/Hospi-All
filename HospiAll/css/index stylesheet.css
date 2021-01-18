@@ -1,3 +1,9 @@
+h2{
+	font-size: 250%;
+}
+p{
+	font-size: 130%;
+}
 .Download{
 	overflow: auto;
 }
@@ -16,12 +22,7 @@
 	margin: 15px;
 	text-align: center;
 }
-.Download-text h2{
-	font-size: 250%;
-}
-.Download-text p{
-	font-size:110%;
-}
+
 .Download-text img{
 	padding: 20px;
 }
@@ -30,6 +31,7 @@
 	background: #EEFEFB;
 	background: linear-gradient(to bottom, #EEFEFB, #ffffff);
 	padding: 15px 0px;
+	margin: 50px 0px;
 }
 .Services a{
 	text-decoration: none;
@@ -41,26 +43,54 @@
 	float: right;
 	margin: 20px;
 }
-.Services h2{
-	font-size: 230%;
-}
-.Services p{
-	font-size: 130%;
-}
 
-.flex-container{
+.Services .flex-container{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-.flex{
+.Services .flex{
 	min-width: 30%;
 	max-width: 48%;
 	flex-basis: 40%;
 	flex-grow: 1;
 	text-align: center;
 	margin: 10px;
-	border: 5px solid #DFEFFC;
+	border: 5px solid #91E7ED;
 	border-radius: 8px;
+}
+
+.How{
+	margin: 50px 0px;
+}
+.How .flex-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.How .flex{
+	min-width: 25%;
+	max-width: 31%;
+	flex-basis: 30%;
+	flex-grow: 1;
+	text-align: center;
+	margin: 10px;
+	border: 5px solid #91E7ED;
+	border-radius: 8px;
+	padding-top: 30px;
+}
+.How h2{
+	text-align: center;
+}
+#tagline{
+	text-align: center;
+	font-size: 140%;
+	font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+.How span{
+	border-bottom: solid #91E7ED 3px;
+	font-size: 120%;
+	font-weight: 600;
 }

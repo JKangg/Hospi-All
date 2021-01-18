@@ -25,16 +25,51 @@ h4{
 	font-size: 30px;
 	margin-top: 0px;
 }
-.step1{
-	background: linear-gradient(to right, #ffffff 0%, #FAFAFA 60%, #FAFAFA 100%)
+
+p{
+	line-height: 1.5;
+	text-align: justify;
 }
+
 .step1-text, .step3-text, .step5-text, .step7-text{
 	width: 30%;
 	display: inline-block;
 	font-size: 20px;
 	margin: 0px 140px 0px 230px;
 }
-.step1 img{
+.step2-text, .step4-text, .step6-text{
+	width: 30%;
+	display: inline-block;
+	font-size: 20px;
+}
+.step1, .step2, .step3, .step4, .step5, .step6{
+	margin: 25px 0px;
+	padding: 20px 0px;
+}
+.step7{
+	margin: 25px 0px 0px 0px;
+	padding: 20px 0px;
+}
+
+.step1, .step3, .step5, .step7{
+	background: linear-gradient(to right, #ffffff 0%, #FAFAFA 60%, #FAFAFA 100%)
+}
+.step1 img, .step3 img{
 	width: 35%;
-	vertical-align: top
+	vertical-align: top;
+}
+.step5 img{
+	width: 25%;
+	vertical-align: top;
+}
+.step7 img{
+	width: 20%;
+	vertical-align: top;
+}
+
+
+.step2 img, .step4 img, .step6 img{
+	width: 23%;
+	vertical-align:baseline;
+	margin: 0px 140px 0px 230px;
 }
